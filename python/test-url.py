@@ -1,7 +1,6 @@
 import json
 sj=open('E:\stage2020\Sample.json',"r",encoding="utf-8")
 s=json.load(sj)
-print(s)
 sj.close()
 coor=[]
 for i in s['briefs']:
