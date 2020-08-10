@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def Home(request):
     return render(request,'iot/Dashboard.html')
 
-def Users(request):
+def login(request):
     return render(request,'iot/login.html')

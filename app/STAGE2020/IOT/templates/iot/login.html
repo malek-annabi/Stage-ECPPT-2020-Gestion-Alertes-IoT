@@ -277,12 +277,46 @@ input[type=text]:placeholder {
 <body>
 <div class="wrapper fadeInDown">
     <div id="formContent">
-        <form method="get">
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <form method="POST" action='login.html'>
+            <input type="text" name="username" id="username" class="fadeIn second" placeholder="username">
+            <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
             <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
     </div>
 </div>
 </body>
 </html>
+       <?php
+session_start();
+if (isset($_POST['username'])&&isset($_POST['password'])) {
+    // On se connecte à la base de données
+    require_once 'getconnexion.php';
+    // On vérifie s'il y a un user avec  ses credentials
+    $req = "select * from iot_users where username = :username and password = :password ";
+    $reponse = $bdd->prepare($req);
+    $reponse->execute(array(
+        'username' => $_POST['username'],
+        'password' => $_POST['password']
+    ));
+    $user = $reponse->fetch(PDO::FETCH_OBJ);
+    //    Si oui
+    //    *         ajouter les infos nécessaires à la session
+    //    *         on redirige vers l'espace
+    if ($user) {
+        $_SESSION['user'] = $_POST['username'];
+        $sql = "select id from iot_users where username = :username";
+        $response = $bdd->prepare($sql);
+        $response->execute(array(
+            'username'=>$_POST['username']
+        ));
+        $id= $response->fetchALL(PDO::FETCH_COLUMN);
+        $_SESSION['UID']=$id[0];
+        header('location: /Dashboard.html');
+        //echo $_SESSION['UID'];
+    } else /*Bad Credentials*/ {
+        header('location: /login.html');
+    }
+} else /*Si pas de post*/ {
+    header('location: /login.html');
+}
+        ?>

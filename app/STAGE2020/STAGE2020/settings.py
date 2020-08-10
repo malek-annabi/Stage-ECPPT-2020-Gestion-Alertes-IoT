@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'Stage2020.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'iot_test',
+        'USER':'root',
+        'PASSWOD':'malek123',
+        'HOST':'localhost',
+        'PORT':'3306',
     }
 }
 
