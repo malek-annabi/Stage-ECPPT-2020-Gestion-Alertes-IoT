@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Stage2020.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['../iot/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,9 +80,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'iot_test',
         'USER':'root',
-        'PASSWOD':'malek123',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'PASSWOD':'',
+        'HOST':'127.0.0.1',
+        'PORT':'',
+        'OPTIONS':{
+            'init_command':"SET sql_mode='STRICT_TRANS_TABLES'",
+            "init_command": "SET foreign_key_checks = 0;"
+        }
     }
 }
 

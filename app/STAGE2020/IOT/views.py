@@ -7,3 +7,5 @@ def Home(request):
 
 def login(request):
     return render(request,'iot/login.html')
+def Users(request):
+    return render(request,'iot/Dashboard.html')

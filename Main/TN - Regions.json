@@ -1,0 +1,104 @@
+{
+  "TN-Regions": [
+    {
+      "Code": "01",
+      "Name": "3S"
+    },
+    {
+      "Code": "11",
+      "Name": "TUNIS"
+    },
+    {
+      "Code": "12",
+      "Name": "ARIANA"
+    },
+    {
+      "Code": "13",
+      "Name": "BEN AROUS"
+    },
+    {
+      "Code": "14",
+      "Name": "MANOUBA"
+    },
+    {
+      "Code": "21",
+      "Name": "NABEUL"
+    },
+    {
+      "Code": "22",
+      "Name": "ZAGHOUAN"
+    },
+    {
+      "Code": "23",
+      "Name": "BIZERTE"
+    },
+    {
+      "Code": "31",
+      "Name": "BEJA"
+    },
+    {
+      "Code": "32",
+      "Name": "JENDOUBA"
+    },
+    {
+      "Code": "33",
+      "Name": "KEF"
+    },
+    {
+      "Code": "34",
+      "Name": "SILIANA"
+    },
+    {
+      "Code": "41",
+      "Name": "KAIROUAN"
+    },
+    {
+      "Code": "42",
+      "Name": "KASSERINE"
+    },
+    {
+      "Code": "43",
+      "Name": "SIDI BOUZID"
+    },
+    {
+      "Code": "51",
+      "Name": "SOUSSE"
+    },
+    {
+      "Code": "52",
+      "Name": "MONASTIR"
+    },
+    {
+      "Code": "53",
+      "Name": "MAHDIA"
+    },
+    {
+      "Code": "61",
+      "Name": "SFAX"
+    },
+    {
+      "Code": "71",
+      "Name": "GAFSA"
+    },
+    {
+      "Code": "72",
+      "Name": "TOZEUR"
+    },
+    {
+      "Code": "73",
+      "Name": "KEBILI"
+    },
+    {
+      "Code": "81",
+      "Name": "GABES"
+    },
+    {
+      "Code": "82",
+      "Name": "MEDENINE"
+    },
+    {
+      "Code": "831",
+      "Name": "TATAOUINE"
+    }
+  ]
+}

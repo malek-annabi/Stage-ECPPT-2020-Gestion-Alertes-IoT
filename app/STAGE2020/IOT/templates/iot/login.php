@@ -2,9 +2,9 @@
 session_start();
 if (isset($_POST['username'])&&isset($_POST['password'])) {
     // On se connecte à la base de données
-    require_once 'getconnexion.php';
+    include_once 'getconnection.php';
     // On vérifie s'il y a un user avec  ses credentials
-    $req = "select * from iot_users where username = :username and password = :password ";
+    $req = "select username,password from iot_users where username = :username and password = :password ";
     $reponse = $bdd->prepare($req);
     $reponse->execute(array(
         'username' => $_POST['username'],
@@ -23,12 +23,12 @@ if (isset($_POST['username'])&&isset($_POST['password'])) {
         ));
         $id= $response->fetchALL(PDO::FETCH_COLUMN);
         $_SESSION['UID']=$id[0];
-        header('location: /Dashboard.html');
+        header('location: Dashboard.php');
         //echo $_SESSION['UID'];
     } else /*Bad Credentials*/ {
-        header('location: /login.html');
+        header('location: login.html');
     }
 } else /*Si pas de post*/ {
-    header('location: /login.html');
+    header('location: login.html');
 }
         ?>
