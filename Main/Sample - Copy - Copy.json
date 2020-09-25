@@ -1,0 +1,7136 @@
+{
+	"briefs": [
+		{
+			"name": "01-001 - 3S MONTPLAISIR",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000005CF",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1525691572113,
+			"cnxState": "DISC",
+			"cnxStateSince": 1585360755527,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.2.68",
+			"lastReboot": 1576924265091,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1585360673623,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						9,
+						7,
+						10,
+						4,
+						10,
+						3,
+						9,
+						11,
+						6,
+						9
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1585360674623,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						9,
+						7,
+						10,
+						4,
+						11,
+						3,
+						9,
+						12,
+						6,
+						9
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 2,
+						"txAvgRate": 1122,
+						"rxAvgRate": 663,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 9,
+			"lat": 36.820812,
+			"lon": 10.192096,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=",
+					"os_version=",
+					"hal_version=5.0.0",
+					"custom_build_version=2.2.68-",
+					"configuration_version=default",
+					"custom1_version=",
+					"custom2_version=",
+					"custom3_version=",
+					"lrr_version=",
+					"fpga_version=",
+					"firmware_version=",
+					"sn_version=",
+					"sku_version="
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/55",
+			"creationDate": 1525691572113,
+			"tags": null
+		},
+		{
+			"name": "11-002 - TUNIS ONT MONTPLAISIR",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033E4",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1567783423668,
+			"cnxState": "DISC",
+			"cnxStateSince": 1592409793217,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511845416,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592409515827,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						1,
+						2,
+						2,
+						2,
+						19,
+						0,
+						1,
+						3,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592409546578,
+					"lc": "LC7",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						4,
+						1,
+						9,
+						8,
+						4,
+						22,
+						1,
+						1,
+						3,
+						6
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 426,
+						"rxAvgRate": 301,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 7,
+			"lat": 36.822609,
+			"lon": 10.1947,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033E4",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/91",
+			"creationDate": 1567783423668,
+			"tags": null
+		},
+		{
+			"name": "11-004 - TUNIS MARSA CHTIOUI",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003352",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1568293106009,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562600649,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511836965,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593862497531,
+					"lc": "LC11",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						5,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593862499531,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						5,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 270,
+						"rxAvgRate": 212,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 2,
+			"lat": 36.875248,
+			"lon": 10.318092,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003352",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/127",
+			"creationDate": 1568293106009,
+			"tags": null
+		},
+		{
+			"name": "11-005 - TUNIS GOULETTE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000338B",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1568297185148,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562602646,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511854891,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593863872979,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594555524083,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 277,
+						"rxAvgRate": 219,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 5,
+			"lat": 36.815468,
+			"lon": 10.303485,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000338B",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/130",
+			"creationDate": 1568297185148,
+			"tags": null
+		},
+		{
+			"name": "12-005 - ARIANA CENTRAL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032A4",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1568991953321,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562605030,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511835018,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594557693266,
+					"lc": "LC10",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594466475853,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						1,
+						0,
+						1,
+						1,
+						0,
+						0,
+						0,
+						2
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 283,
+						"rxAvgRate": 210,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 3,
+			"alarmCount": 26005,
+			"lat": 36.85635,
+			"lon": 10.187816,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032A4",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/139",
+			"creationDate": 1568991953321,
+			"tags": null
+		},
+		{
+			"name": "12-001 - ARIANA MANAR HAUT",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033C4",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1570880017310,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562607624,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511854035,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594554939535,
+					"lc": "LC11",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594459314236,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 331,
+						"rxAvgRate": 223,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 8,
+			"lat": 36.84153,
+			"lon": 10.14567,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033C4",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/142",
+			"creationDate": 1570880017310,
+			"tags": null
+		},
+		{
+			"name": "12-002 - ARIANA PARC TECHNOLOGIQUE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000322F",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1571766155818,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562602997,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511840053,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594318666987,
+					"lc": "LC6",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593625410703,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						1,
+						2,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 259,
+						"rxAvgRate": 189,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 7,
+			"lat": 36.890591,
+			"lon": 10.184962,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000322F",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/154",
+			"creationDate": 1571766155818,
+			"tags": null
+		},
+		{
+			"name": "12-003 - ARIANA BORJ TOUIL CTT",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003208",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1571766878456,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562590838,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1590014466026,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592676124373,
+					"lc": "LC12",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592676126373,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 272,
+						"rxAvgRate": 201,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 3,
+			"lat": 36.939426,
+			"lon": 10.162917,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003208",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/157",
+			"creationDate": 1571766878456,
+			"tags": null
+		},
+		{
+			"name": "13-001 - BEN AROUS 26",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003412",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1571904920055,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562593470,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511859858,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594561876282,
+					"lc": "LC1",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594562343555,
+					"lc": "LC15",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						2,
+						0,
+						1,
+						2,
+						1,
+						0,
+						0,
+						2,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 221,
+						"rxAvgRate": 175,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 26397,
+			"lat": 36.75206,
+			"lon": 10.223476,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003412",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/163",
+			"creationDate": 1571904920055,
+			"tags": null
+		},
+		{
+			"name": "13-004 - BEN AROUS MOUROUJ 4",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033AD",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572011169392,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065254541,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812204894,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593628663030,
+					"lc": "LC11",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593628665030,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 295,
+						"rxAvgRate": 203,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 4,
+			"lat": 36.715092,
+			"lon": 10.218451,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033AD",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/166",
+			"creationDate": 1572011169392,
+			"tags": null
+		},
+		{
+			"name": "13-005 - BEN AROUS RADES GSM",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032FD",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572014184902,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065286679,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812240871,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1595065569669,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						1,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1595065570669,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						3,
+						1,
+						4,
+						4,
+						0,
+						0,
+						3,
+						0,
+						2
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 252,
+						"rxAvgRate": 179,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 9,
+			"lat": 36.768345,
+			"lon": 10.272769,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032FD",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/169",
+			"creationDate": 1572014184902,
+			"tags": null
+		},
+		{
+			"name": "13-003 - BEN AROUS MORNAG VILLE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032A7",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572016257401,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562604566,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511849861,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594541914596,
+					"lc": "LC4",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594562328039,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 288,
+						"rxAvgRate": 220,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 8,
+			"lat": 36.680485,
+			"lon": 10.291813,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032A7",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/172",
+			"creationDate": 1572016257401,
+			"tags": null
+		},
+		{
+			"name": "13-002 - BEN AROUS MHAMDIA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000031DA",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572019216827,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065260250,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812221034,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594904700780,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						2,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594904702780,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						2,
+						1,
+						0,
+						0,
+						0,
+						1,
+						1,
+						2,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 202,
+						"rxAvgRate": 171,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 3,
+			"lat": 36.679604,
+			"lon": 10.156268,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000031DA",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/175",
+			"creationDate": 1572019216827,
+			"tags": null
+		},
+		{
+			"name": "13-007 - BEN AROUS KHLIDIA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003299",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572021133154,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562605743,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1590438066122,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1576230941576,
+					"lc": "LC10",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						45,
+						45
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1576230943576,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						45,
+						45
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 239,
+						"rxAvgRate": 209,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 3,
+			"lat": 36.638126,
+			"lon": 10.188323,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003299",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/178",
+			"creationDate": 1572021133154,
+			"tags": null
+		},
+		{
+			"name": "13-006 - BEN AROUS HAMMAM LIF STADE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003382",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572022635437,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562596561,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511863101,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592553487759,
+					"lc": "LC10",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592553489759,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 236,
+						"rxAvgRate": 198,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 6,
+			"lat": 36.728203,
+			"lon": 10.345467,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003382",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/181",
+			"creationDate": 1572022635437,
+			"tags": null
+		},
+		{
+			"name": "14-002 - MANOUBA TADHAMEN BB",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000333C",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572082807507,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065224424,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812180882,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594828432005,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						23,
+						25,
+						27,
+						27,
+						22,
+						28,
+						23,
+						22,
+						19,
+						19
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594828434005,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						23,
+						25,
+						27,
+						27,
+						23,
+						27,
+						23,
+						22,
+						19,
+						19
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 324,
+						"rxAvgRate": 208,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 5,
+			"lat": 36.827415,
+			"lon": 10.10588,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000333C",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/187",
+			"creationDate": 1572082807507,
+			"tags": null
+		},
+		{
+			"name": "14-003 - MANOUBA JEDAIDA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000336B",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572082836584,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562607985,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511844970,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589805388103,
+					"lc": "LC13",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589805390103,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 253,
+						"rxAvgRate": 212,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 4,
+			"lat": 36.849613,
+			"lon": 9.936295,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000336B",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/190",
+			"creationDate": 1572082836584,
+			"tags": null
+		},
+		{
+			"name": "14-004 - MANOUBA TEBOURBA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003203",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572084837372,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562602888,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511839943,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 277,
+						"rxAvgRate": 218,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 1,
+			"lat": 36.82793,
+			"lon": 9.844379,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003203",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/193",
+			"creationDate": 1572084837372,
+			"tags": null
+		},
+		{
+			"name": "14-005 - MANOUBA SIDI THABET",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003297",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572960609941,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065219310,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812162894,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589805184376,
+					"lc": "LC15",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589805186376,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 369,
+						"rxAvgRate": 239,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 3,
+			"alarmCount": 3,
+			"lat": 36.907574,
+			"lon": 10.0418,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003297",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/196",
+			"creationDate": 1572960609941,
+			"tags": null
+		},
+		{
+			"name": "14-006 - MANOUBA KALAAT LANDALOUS",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003378",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572963595928,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065387108,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1595044267153,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593862102652,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593862104652,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 305,
+						"rxAvgRate": 226,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 37.058105,
+			"lon": 10.10961,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003378",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/199",
+			"creationDate": 1572963595928,
+			"tags": null
+		},
+		{
+			"name": "14-008 - MANOUBA MORNAGUIA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033A6",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1572964688349,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065244507,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812193881,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594113087624,
+					"lc": "LC1",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						3,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594113093624,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						2,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 233,
+						"rxAvgRate": 193,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 31840,
+			"lat": 36.758381,
+			"lon": 10.019733,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830110046",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033A6",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/202",
+			"creationDate": 1572964688349,
+			"tags": null
+		},
+		{
+			"name": "01-002 - 3S CHARGUIA I",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003227",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573200874867,
+			"cnxState": "DISC",
+			"cnxStateSince": 1573202437422,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1572969066352,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 2188,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 352,
+						"rxAvgRate": 229,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 1,
+			"lat": null,
+			"lon": null,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/208",
+			"creationDate": 1573200874867,
+			"tags": null
+		},
+		{
+			"name": "61-001 - SFAX NORD",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000336F",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573723913060,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065360124,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511843002,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1574343150533,
+					"lc": "LC12",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1574343152533,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 261,
+						"rxAvgRate": 204,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 34.760315,
+			"lon": 10.762239,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000336F",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/214",
+			"creationDate": 1573723913060,
+			"tags": null
+		},
+		{
+			"name": "61-002 - SFAX SEBAI",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003374",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573724016100,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065856688,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511845949,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1574343038505,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1574343040505,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 212,
+						"rxAvgRate": 187,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 34.816929,
+			"lon": 10.795162,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003374",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/217",
+			"creationDate": 1573724016100,
+			"tags": null
+		},
+		{
+			"name": "61-003 - SFAX ESSEDRA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032D9",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573728653919,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065383591,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511830979,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1574343507093,
+					"lc": "LC14",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						41,
+						0,
+						0,
+						0,
+						0,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1574343509093,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						41,
+						0,
+						0,
+						0,
+						0,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 266,
+						"rxAvgRate": 200,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 34.826984,
+			"lon": 10.757055,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032D9",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/220",
+			"creationDate": 1573728653919,
+			"tags": null
+		},
+		{
+			"name": "61-004 - SFAX GREMDA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032A0",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573739809422,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065765729,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511844532,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1574339157783,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						6,
+						6,
+						51,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1574339159783,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						6,
+						6,
+						51,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 244,
+						"rxAvgRate": 208,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 34.782295,
+			"lon": 10.712419,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032A0",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/223",
+			"creationDate": 1573739809422,
+			"tags": null
+		},
+		{
+			"name": "61-005 - SFAX CITE HABIB",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000336E",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573742519352,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065373599,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511836046,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1574338780867,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1574338782867,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 258,
+						"rxAvgRate": 192,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 34.720806,
+			"lon": 10.720209,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000336E",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/226",
+			"creationDate": 1573742519352,
+			"tags": null
+		},
+		{
+			"name": "11-003 - TUNIS OUARDIA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000328B",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573807749093,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065857646,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1562906466141,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1595065689799,
+					"lc": "LC5",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						1,
+						1,
+						0,
+						1,
+						2,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1595065810931,
+					"lc": "LC16",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						4,
+						4,
+						3,
+						1,
+						2,
+						2,
+						4,
+						3,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 306,
+						"rxAvgRate": 216,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 9,
+			"lat": 36.766285,
+			"lon": 10.179729,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000328B",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/229",
+			"creationDate": 1573807749093,
+			"tags": null
+		},
+		{
+			"name": "14-007 - MANNOUBA BORJ IL AMRI 1",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032F0",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1573807830582,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065329254,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1562893267139,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594116260650,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594116262650,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 312,
+						"rxAvgRate": 211,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 36.711445,
+			"lon": 9.88328,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032F0",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/232",
+			"creationDate": 1573807830582,
+			"tags": null
+		},
+		{
+			"name": "53-001 - MAHDIA CENTRAL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003361",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576060564276,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065359313,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1562898666138,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591623075412,
+					"lc": "LC16",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						7,
+						5,
+						20,
+						1,
+						0,
+						0,
+						15,
+						4,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591623077412,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						7,
+						5,
+						20,
+						1,
+						0,
+						0,
+						16,
+						3,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 284,
+						"rxAvgRate": 231,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 35.504868,
+			"lon": 11.062241,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003361",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/235",
+			"creationDate": 1576060564276,
+			"tags": null
+		},
+		{
+			"name": "51-003 - SOUSSE HAMMAM SOUSSE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000325E",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576060638184,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065290018,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591374696246,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591963975998,
+					"lc": "LC1",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591963981998,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 256,
+						"rxAvgRate": 229,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 3,
+			"lat": 35.856449,
+			"lon": 10.595533,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000325E",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/238",
+			"creationDate": 1576060638184,
+			"tags": null
+		},
+		{
+			"name": "51-002 - SOUSSE 2 CATACOMBES",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000327E",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576070096587,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065675717,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591369866058,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591952723706,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						8,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591952725706,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						8,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 244,
+						"rxAvgRate": 199,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 3,
+			"lat": 35.81749,
+			"lon": 10.627562,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000327E",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/241",
+			"creationDate": 1576070096587,
+			"tags": null
+		},
+		{
+			"name": "51-001 - SOUSSE SIDI ABDELHAMID",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033FF",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576070286705,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065637022,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591367467158,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591890793571,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						19,
+						35,
+						5
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591890795571,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						19,
+						36,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 3853,
+						"rxAvgRate": 3056,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 3,
+			"lat": 35.787415,
+			"lon": 10.671909,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033FF",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/244",
+			"creationDate": 1576070286705,
+			"tags": null
+		},
+		{
+			"name": "52-004 - MONASTIR ZONE TOURISTIQUE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003230",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576073604313,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065429042,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591369866201,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591964854610,
+					"lc": "LC3",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591964860610,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 277,
+						"rxAvgRate": 226,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 35.757988,
+			"lon": 10.732708,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003230",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/247",
+			"creationDate": 1576073604313,
+			"tags": null
+		},
+		{
+			"name": "52-003 - MONASTIR SKANES",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000328C",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576073746556,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065838844,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591368666216,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591965118945,
+					"lc": "LC3",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591965124945,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 565,
+						"rxAvgRate": 454,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 35.774757,
+			"lon": 10.814481,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000328C",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/250",
+			"creationDate": 1576073746556,
+			"tags": null
+		},
+		{
+			"name": "52-001 - MONASTIR CCL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003413",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576244907259,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065863136,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591368066139,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591880735405,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591880737405,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 247,
+						"rxAvgRate": 210,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 4,
+			"lat": 35.725861,
+			"lon": 10.815046,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003413",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/256",
+			"creationDate": 1576244907259,
+			"tags": null
+		},
+		{
+			"name": "34-001 - SILIANA CENTRAL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000031E2",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576679606909,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065107326,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591193466075,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591262855797,
+					"lc": "LC11",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						22
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591262857797,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						22
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 259,
+						"rxAvgRate": 210,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.085011,
+			"lon": 9.371279,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000031E2",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/265",
+			"creationDate": 1576679606909,
+			"tags": null
+		},
+		{
+			"name": "53-002 - MAHDIA HIBOUN",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003330",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576682840676,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065782687,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591368666108,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591623279172,
+					"lc": "LC15",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						25,
+						26
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591623281172,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						25,
+						26
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 248,
+						"rxAvgRate": 214,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 35.522675,
+			"lon": 11.033211,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003330",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/268",
+			"creationDate": 1576682840676,
+			"tags": null
+		},
+		{
+			"name": "51-004 - SOUSSE GANDOUZ",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003392",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1576772133686,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065037926,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1576773064968,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591965306291,
+					"lc": "LC16",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						21
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591965308291,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						21
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 245,
+						"rxAvgRate": 212,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 35.902699,
+			"lon": 10.576246,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003392",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/274",
+			"creationDate": 1576772133686,
+			"tags": null
+		},
+		{
+			"name": "21-003 - NABEUL HAMMAMET LGD",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003368",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577115784568,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065588782,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511849856,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591176818101,
+					"lc": "LC1",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591176824101,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 246,
+						"rxAvgRate": 204,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.396473,
+			"lon": 10.614008,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003368",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/277",
+			"creationDate": 1577115784568,
+			"tags": null
+		},
+		{
+			"name": "21-004 - NABEUL BARRAKET ESSAHEL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003245",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577115837683,
+			"cnxState": "DISC",
+			"cnxStateSince": 1590050246718,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1590046613116,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 234,
+						"rxAvgRate": 189,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 1,
+			"lat": 36.409302,
+			"lon": 10.56054,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=58",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003245",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/280",
+			"creationDate": 1577115837683,
+			"tags": null
+		},
+		{
+			"name": "21-002 - NABEUL SIONVILLE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032A9",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577117889237,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595064986194,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511841017,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589371971773,
+					"lc": "LC15",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						10,
+						49,
+						26
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589371973773,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						11,
+						48,
+						18
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 179,
+						"rxAvgRate": 200,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.431587,
+			"lon": 10.688258,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032A9",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/283",
+			"creationDate": 1577117889237,
+			"tags": null
+		},
+		{
+			"name": "21-001 - NABEUL LGD",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003209",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577353733798,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065835976,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589511855962,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589371851797,
+					"lc": "LC14",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						15,
+						18,
+						7,
+						4,
+						0,
+						22,
+						2,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589371853797,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						16,
+						17,
+						7,
+						4,
+						0,
+						23,
+						1,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 1701,
+						"rxAvgRate": 1310,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 4,
+			"lat": 36.455879,
+			"lon": 10.733432,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003209",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/286",
+			"creationDate": 1577353733798,
+			"tags": null
+		},
+		{
+			"name": "22-001 - ZAGHOUAN",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003415",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577722871292,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065863377,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1577718066139,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591177508212,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						17,
+						25,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591177510212,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						17,
+						25,
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 322,
+						"rxAvgRate": 214,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.400928,
+			"lon": 10.143493,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003415",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/289",
+			"creationDate": 1577722871292,
+			"tags": null
+		},
+		{
+			"name": "22-002 - ZAGHOUAN ZRIBA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033E3",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577722930616,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065689282,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1590830466068,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592323999053,
+					"lc": "LC8",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						7,
+						8,
+						9,
+						27,
+						29,
+						29,
+						29,
+						29,
+						14,
+						3
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592323951720,
+					"lc": "LC1",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						3,
+						6,
+						0,
+						3,
+						0,
+						0,
+						0,
+						0,
+						6,
+						3
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 239,
+						"rxAvgRate": 206,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 3,
+			"alarmCount": 3,
+			"lat": 36.354321,
+			"lon": 10.210727,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033E3",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/292",
+			"creationDate": 1577722930616,
+			"tags": null
+		},
+		{
+			"name": "23-001 - BIZERTE ZARZOUNA CCL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000324B",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1577722960139,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065505217,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1577744465966,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589804284909,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						35,
+						21,
+						35,
+						6,
+						8,
+						9,
+						1,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589804286909,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						34,
+						21,
+						35,
+						6,
+						8,
+						10,
+						0,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 245,
+						"rxAvgRate": 206,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 3,
+			"alarmCount": 3,
+			"lat": 37.26466,
+			"lon": 9.884803,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000324B",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/295",
+			"creationDate": 1577722960139,
+			"tags": null
+		},
+		{
+			"name": "23-002 - BIZERTE PALAIS DES CONGRES",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000329B",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578041953056,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065786932,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1578045066082,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1589804290099,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						3,
+						25,
+						33,
+						64,
+						61,
+						55
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1589804292099,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						3,
+						25,
+						34,
+						63,
+						61,
+						55
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 397,
+						"rxAvgRate": 254,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 3,
+			"lat": 37.283157,
+			"lon": 9.867516,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000329B",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/298",
+			"creationDate": 1578041953056,
+			"tags": null
+		},
+		{
+			"name": "23-003 - BIZERTE MENZEL ABDERRAHMANE",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000328D",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578045962084,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065798613,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1562891466072,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1590669288473,
+					"lc": "LC13",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1590669290473,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						2,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 245,
+						"rxAvgRate": 201,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 37.234814,
+			"lon": 9.864856,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000328D",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/301",
+			"creationDate": 1578045962084,
+			"tags": null
+		},
+		{
+			"name": "23-004 - BIZERTE MENZEL BOURGUIBA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000031FD",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578305941913,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065694081,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1562892666221,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1590669573721,
+					"lc": "LC15",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						21,
+						28
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1590669575721,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						22,
+						27
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 406,
+						"rxAvgRate": 288,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 37.155094,
+			"lon": 9.793421,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000031FD",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/304",
+			"creationDate": 1578305941913,
+			"tags": null
+		},
+		{
+			"name": "12-004 - ARIANA AOUINA",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000033E7",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578559772420,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065243785,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1578574868124,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594901344337,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594901346337,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 259,
+						"rxAvgRate": 222,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 5,
+			"lat": 36.851212,
+			"lon": 10.262028,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000033E7",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/307",
+			"creationDate": 1578559772420,
+			"tags": null
+		},
+		{
+			"name": "14-001 - MANOUBA DEN DEN GSM",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000320F",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578580860663,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065704427,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1590762067087,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594815006807,
+					"lc": "LC3",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593458372137,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						1,
+						1,
+						2,
+						0,
+						0,
+						1,
+						1,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 231,
+						"rxAvgRate": 172,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.801559,
+			"lon": 10.110174,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000320F",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/310",
+			"creationDate": 1578580860663,
+			"tags": null
+		},
+		{
+			"name": "11-001 - TUNIS HACHED",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "0000326D",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1578907258551,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065056197,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1589286666107,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594731013526,
+					"lc": "LC12",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						1,
+						4,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594775168803,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 274,
+						"rxAvgRate": 209,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 2,
+			"lat": 36.79707,
+			"lon": 10.182207,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=465842530000326D",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/313",
+			"creationDate": 1578907258551,
+			"tags": null
+		},
+		{
+			"name": "11-006 - TUNIS LAC I (TT MOBILE)",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003210",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1591088913797,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562606765,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1589511841038,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1594559712763,
+					"lc": "LC12",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						3,
+						1,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1594562360247,
+					"lc": "LC11",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						5,
+						3,
+						3,
+						4,
+						0,
+						2,
+						3,
+						4,
+						2,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 388,
+						"rxAvgRate": 301,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 6,
+			"lat": 36.838848,
+			"lon": 10.240741,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003210",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/319",
+			"creationDate": 1591088913797,
+			"tags": null
+		},
+		{
+			"name": "31-001 - BEJA CENTRAL",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003362",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1591108246375,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065855851,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594890066194,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": null,
+					"lc": null,
+					"ant": null
+				},
+				"history": {
+					"val": []
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 229,
+						"rxAvgRate": 183,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 36.723328,
+			"lon": 9.184263,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003362",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/322",
+			"creationDate": 1591108246375,
+			"tags": null
+		},
+		{
+			"name": "52-002 - MONASTIR LGD",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003316",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1591109459708,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065604127,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591368666112,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1591964036359,
+					"lc": "LC3",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1591964042359,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 263,
+						"rxAvgRate": 214,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 35.772339,
+			"lon": 10.831472,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003316",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/325",
+			"creationDate": 1591109459708,
+			"tags": null
+		},
+		{
+			"name": "01-003 - 3S CHARGUIA II",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000031DE",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1591362455360,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065552840,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594812238905,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1595065834058,
+					"lc": "LC14",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1,
+						7,
+						2,
+						9,
+						5,
+						6,
+						8,
+						4,
+						8,
+						4
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1595065565434,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						5,
+						0,
+						6,
+						3,
+						4,
+						6,
+						0,
+						7,
+						1,
+						5
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 367,
+						"rxAvgRate": 223,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 5,
+			"alarmCount": 8,
+			"lat": 36.853893,
+			"lon": 10.208712,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000031DE",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/328",
+			"creationDate": 1591362455360,
+			"tags": null
+		},
+		{
+			"name": "Test [AO]",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000031E5",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1591804590072,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065873499,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1594926666131,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1595065869990,
+					"lc": "LC7",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						8,
+						14,
+						10,
+						15,
+						11,
+						15,
+						11,
+						13,
+						13,
+						12
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1595065871990,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						6,
+						10,
+						4,
+						12,
+						7,
+						12,
+						10,
+						11,
+						11,
+						12
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 363,
+						"rxAvgRate": 226,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 3,
+			"alarmCount": 7,
+			"lat": 36.820736,
+			"lon": 10.192212,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000031E5",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/340",
+			"creationDate": 1591804590072,
+			"tags": null
+		},
+		{
+			"name": "33-001 - KEF 1",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003260",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1592230158362,
+			"cnxState": "DISC",
+			"cnxStateSince": 1594562599027,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": "2.4.73",
+			"lastReboot": 1592231467130,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592907043366,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						20,
+						15,
+						7,
+						18,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592907045366,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						20,
+						15,
+						7,
+						18,
+						1,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 252,
+						"rxAvgRate": 204,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 1,
+			"lat": 36.180195,
+			"lon": 8.708652,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=4658425300003260",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/343",
+			"creationDate": 1592230158362,
+			"tags": null
+		},
+		{
+			"name": "33-002 - KEF EDDIR",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "000032B6",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1592230589189,
+			"cnxState": "CNX",
+			"cnxStateSince": 1595065243665,
+			"healthState": "ACTIVE",
+			"version": "2.4.73",
+			"lastReboot": 1591623067067,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1592913448353,
+					"lc": "LC2",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						20,
+						0,
+						21,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1592913450353,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						20,
+						0,
+						21,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 273,
+						"rxAvgRate": 213,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 1,
+			"alarmCount": 1,
+			"lat": 36.182777,
+			"lon": 8.726473,
+			"alt": null,
+			"customs": {
+				"version": [
+					"hardware_version=BST200_Rev1.1",
+					"os_version=3.14.43-g875c69b",
+					"hal_version=5.1.0",
+					"custom_build_version=2.4.73-fcloc",
+					"configuration_version=default",
+					"custom1_version=PKG021-20190712-FULLSDK1003V-SIG",
+					"custom2_version=3S-GIT#3b6b863f",
+					"custom3_version=PackagingDate-20190830155836",
+					"lrr_version=2.4.73",
+					"fpga_version=61",
+					"firmware_version=PKG021-20190712-FULLSDK1003V-SIGN",
+					"sn_version=46584253000032B6",
+					"sku_version=unidentified"
+				]
+			},
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/346",
+			"creationDate": 1592230589189,
+			"tags": null
+		},
+		{
+			"name": "TEST 1 ***",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003287",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1593101129805,
+			"cnxState": "DISC",
+			"cnxStateSince": 1593151848697,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": null,
+			"lastReboot": 1586880666031,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593101657068,
+					"lc": "LC9",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						6,
+						7,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593101659068,
+					"lc": "LC255",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						6,
+						7,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 5,
+						"txAvgRate": 0,
+						"rxAvgRate": 0,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 285,
+						"rxAvgRate": 171,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 2,
+			"lat": null,
+			"lon": null,
+			"alt": null,
+			"customs": null,
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/349",
+			"creationDate": 1593101129805,
+			"tags": null
+		},
+		{
+			"name": "TEST NEW",
+			"model": {
+				"commercialName": "Ufispace Macro V2.0",
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationProfile/37"
+			},
+			"lrrID": "00003405",
+			"lrrUUID": null,
+			"state": "ACTIVE",
+			"stateSince": 1593446372607,
+			"cnxState": "DISC",
+			"cnxStateSince": 1593447173366,
+			"healthState": "BACKHAUL_CNX_ERROR",
+			"version": null,
+			"lastReboot": 1593444025060,
+			"power": {
+				"status": 5,
+				"batteryLevel": null
+			},
+			"upFrame": {
+				"last": {
+					"date": 1593446713590,
+					"lc": "LC4",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						1
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"dwFrame": {
+				"last": {
+					"date": 1593447079995,
+					"lc": "LC13",
+					"ant": "A1"
+				},
+				"history": {
+					"val": [
+						8,
+						9
+					]
+				},
+				"minRC": {
+					"rc": null,
+					"lc": null,
+					"ant": null
+				}
+			},
+			"ints": {
+				"int": [
+					{
+						"name": "eth0",
+						"type": "ETHERNET",
+						"state": 2,
+						"txAvgRate": 440,
+						"rxAvgRate": 255,
+						"signal": null
+					},
+					{
+						"name": "ppp0",
+						"type": "GPRS",
+						"state": 0,
+						"txAvgRate": 380,
+						"rxAvgRate": 274,
+						"signal": null
+					}
+				]
+			},
+			"alarmLevel": 6,
+			"alarmCount": 1,
+			"lat": null,
+			"lon": null,
+			"alt": null,
+			"customs": null,
+			"vendor": {
+				"name": "Ufispace",
+				"commercialName": "Ufispace",
+				"commercialDescription": null,
+				"logo": "/thingpark/wireless/rest/resources/files/logo/baseStationVendor/7"
+			},
+			"href": "/thingpark/wireless/rest/partners/1/bss/361",
+			"creationDate": 1593446372607,
+			"tags": null
+		}
+	],
+	"more": false,
+	"now": 1595065882403
+}
